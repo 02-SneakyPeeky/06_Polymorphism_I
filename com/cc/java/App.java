@@ -12,10 +12,11 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-    
+        HoneyBee bee = new HoneyBee();
+        pollObj(bee);
     }
 
-   // i. Variante: Overloading - Überladenen Methoden
+   // 1. Variante: Overloading - Überladenen Methoden
 
 //    private static void pollObj(Queen obj) {
 //     output(obj.doYourJob());
