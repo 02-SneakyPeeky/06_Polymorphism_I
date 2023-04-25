@@ -6,7 +6,6 @@ public class Queen extends HoneyBee {
         
     return "I want to ride my bicycle!";
 
-    
-        }
+    }
 
 }
