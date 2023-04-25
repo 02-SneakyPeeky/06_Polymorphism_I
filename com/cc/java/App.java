@@ -12,6 +12,8 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
+        // Das Aufrufen der Abstrakten Klasse der "HoneyBee"
+        // (SuperBee) sollte eigentlich nicht möglich sein
         HoneyBee bee = new HoneyBee();
         pollObj(bee);
     }
